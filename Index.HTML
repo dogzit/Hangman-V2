@@ -9,13 +9,33 @@
 
   <body>
     <div class="dialog" id="lose">
-      <div id="losttext">Loser?!?!</div>
+      <img
+        src="./Loser.jpeg"
+        style="
+          width: 400px;
+          height: 500px;
+          position: absolute;
+          right: 400px;
+          top: 200px;
+        "
+      />
+      <div id="losttext">🤮Loser?!?!</div>
       <div id="correct-word"></div>
       <button id="button-try-again">Try again.</button>
     </div>
 
     <div class="dialog" id="won">
-      <div id="wontext">You won.</div>
+      <img
+        src="./Winner meme.jpg"
+        style="
+          width: 400px;
+          height: 500px;
+          position: absolute;
+          right: 400px;
+          top: 200px;
+        "
+      />
+      <div id="wontext">🫡 You won. 🥳</div>
       <button id="button-restart">Play again.</button>
     </div>
 
@@ -24,7 +44,9 @@
       <div>
         <div class="body">
           <img class="backgroundzurag" src="./pictures/0.jpg" />
-
+          <span id="daragdsan"
+            >~The letters that you clicked:<span id="daragdsan-usegnud"></span
+          ></span>
           <div class="word-container"></div>
           <div class="fail">Fails: <span id="Fail-counter">0</span></div>
           <div class="keypad"></div>

@@ -10,7 +10,7 @@ WinnerBanner.style.visibility = "hidden";
 const LoserBanner = document.getElementById("lose");
 LoserBanner.style.visibility = "hidden";
 const CorrectWord = document.getElementById("correct-word");
-
+const DaragdsanUsegnud = document.getElementById("daragdsan-usegnud");
 const hangmanWords = [
   "geography",
   "island",
@@ -166,6 +166,7 @@ function StartGame() {
       randomwordfunction();
       GameLost();
       GameWon();
+      medku();
     });
   }
 }
@@ -198,8 +199,12 @@ function GameWon() {
     WinnerBanner.style.visibility = "visible";
   }
 }
+function medku() {
+  DaragdsanUsegnud.innerHTML = `(${ClickedLettersArray})`;
+}
 
 window.onload = StartGame;
+
 randomwordfunction();
 
 button1.addEventListener("click", function () {

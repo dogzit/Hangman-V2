@@ -17,7 +17,7 @@
   width: 100vw;
   font-size: 25px;
   gap: 30px;
-  color: white;
+  color: #7d3c98;
 }
 
 .keypad {
@@ -30,9 +30,10 @@
 .Keypads {
   border: 2px solid black;
   border-radius: 16px;
-  background-color: #eedc82;
+  background-color: #1e8449;
   padding: 4px;
   font-size: 30px;
+  font-family: "Fredoka", sans-serif;
 }
 .Keypads:hover {
   cursor: pointer;
@@ -60,11 +61,13 @@
 }
 .word-container {
   font-size: 70px;
+  font-family: "Fredoka", sans-serif;
 }
 
 .background {
   box-sizing: border-box;
-  background-image: url(./Cute\ Duck\ Wallpaper.jpeg);
+  background-image: url(./snoopy\ surfing.jpeg);
+  background-color: rgba(0, 0, 0, 0.5);
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -75,7 +78,7 @@
   width: 250px;
 }
 .header {
-  color: beige;
+  color: #1a5276;
   font-size: 80px;
   display: flex;
   justify-content: center;
@@ -83,8 +86,10 @@
 }
 
 .dialog {
-  background: rgba(0, 0, 0, 0.5);
+  background-image: url(./Aesthetic\ Background\ Simple\ Hd\,\ Wallpaper\,\ Aesthetic\ Background\,\ Cute\ Background\ Background\ Image\ And\ Wallpaper\ for\ Free\ Download.jpeg);
   height: 100vh;
+  background-position: center;
+  background-size: cover;
   width: 100vw;
   top: 0;
   left: 0;
@@ -97,26 +102,26 @@
   z-index: 10;
 }
 #wontext {
-  color: white;
+  color: #5dade2;
   font-size: 50px;
   font-family: "Fredoka", sans-serif;
 }
 
 #losttext {
-  color: white;
+  color: #af601a;
   font-size: 100px;
   font-family: "Fredoka", sans-serif;
 }
 
 #button-try-again {
-  background-color: #3b82f6;
+  background-color: #e74c3c;
   width: 100px;
   height: 30px;
   font-size: 16px;
 }
 
 #button-try-again:hover {
-  background-color: #2563eb;
+  background-color: #b03a2e;
   cursor: pointer;
 }
 .main-body {
@@ -126,16 +131,33 @@
 #correct-word {
   font-family: "Fredoka", sans-serif;
   font-size: 30px;
-  color: beige;
+  color: #6c3483;
 }
 
 #button-restart {
-  background-color: #3b82f6;
+  background-color: #1abc9c;
   width: 100px;
   height: 30px;
   font-size: 16px;
 }
 #button-restart:hover {
-  background-color: #2563eb;
+  background-color: #1e8449;
   cursor: pointer;
+}
+
+#daragdsan {
+  position: absolute;
+  right: 100px;
+  top: 200px;
+  width: 400px;
+  height: 100px;
+  font-size: 30px;
+  color: #283747;
+  font-family: "Fredoka", sans-serif;
+}
+#daragdsan-usegnud {
+  font-size: 25px;
+}
+.fail {
+  font-family: "Fredoka", sans-serif;
 }
